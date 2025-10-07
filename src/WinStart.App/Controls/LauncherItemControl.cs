@@ -30,15 +30,15 @@ namespace WinStart.App.Controls
             {
                 using (var img = Image.FromFile(iconPath))
                 {
-                    icon = new PictureBox
-                    {
+            icon = new PictureBox
+            {
                         Image = new Bitmap(img, new Size(64, 64)), // 强制缩放为 64×64
-                        SizeMode = PictureBoxSizeMode.Zoom,
-                        Width = 64,
-                        Height = 64,
-                        Top = 10,
-                        Left = (Width - 64) / 2
-                    };
+                SizeMode = PictureBoxSizeMode.Zoom,
+                Width = 64,
+                Height = 64,
+                Top = 10,
+                Left = (Width - 64) / 2
+            };
                 }
             }
             catch (Exception ex)

@@ -57,7 +57,7 @@ namespace WinStart.App
                 new { Name = "记事本", Icon = Path.Combine(assetDir, "notepad.png"), Path = "notepad.exe" },
                 new { Name = "计算器", Icon = Path.Combine(assetDir, "calc.png"), Path = "calc.exe" },
                 new { Name = "浏览器", Icon = Path.Combine(assetDir, "browser.png"), Path = "https://www.bing.com" }
-    };
+            };
 
             foreach (var item in items)
             {
@@ -71,7 +71,7 @@ namespace WinStart.App
                     MessageBox.Show($"加载启动项 {item.Name} 失败: {ex.Message}");
                 }
             }
-        }   
+        }
     }
 }
 

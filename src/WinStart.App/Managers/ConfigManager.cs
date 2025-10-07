@@ -17,7 +17,7 @@ namespace WinStart.App.Managers
         public static StyleConfig Style { get; private set; } = null!;
 
 
-        public static void Initialize()
+		public static void Initialize()
 		{
 			if (!Directory.Exists(ConfigDir))
 				Directory.CreateDirectory(ConfigDir);
