@@ -1,1 +1,7 @@
-{} 
+{
+  "FontFamily": "Segoe UI",
+  "FontSize": 12,
+  "BackgroundColor": "#202020",
+  "ForegroundColor": "#FFFFFF",
+  "Opacity": 0.9
+}
