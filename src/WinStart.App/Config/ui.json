@@ -1,1 +1,7 @@
-{} 
+{
+  "WindowWidth": 1000,
+  "WindowHeight": 700,
+  "IconSize": 64,
+  "Spacing": 10,
+  "ShowLabels": true
+}
