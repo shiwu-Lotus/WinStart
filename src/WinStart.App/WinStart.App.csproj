@@ -9,9 +9,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Include="assets\**\*.*">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
+		<Content Include="assets\**" CopyToOutputDirectory="PreserveNewest" />
+		<Content Include="Config\**" CopyToOutputDirectory="PreserveNewest" />
 	</ItemGroup>
 
 </Project>
